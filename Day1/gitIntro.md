@@ -348,6 +348,8 @@ To turn one of your existing folders into a git repository, just do "git init" a
 
 It's best to initialize a repo with a README (so you can tell people what what the project is about) and a license file (so everyone is clear about what what you are happy for people to copy and re-use) but you don't have to. A `.gitignore` is useful though - it tells git to ignore certain files and filetypes, so that they don't clutter up your git status messinges. Once the repo has been started, you can then clone it to your local machine.
 
+why is there even a..ugh...
+
 In the repo's settings, at the bottom of the righthand sidebar, you can add collaborators (giving them read, write or admin access), and turn on the wiki associated with the repo, if you want.
 
 
@@ -385,6 +387,8 @@ Issues are a great way to communicate: they keep topics well separated, and allo
 However, the flood of notifications emails that using GitHub produces (one for every comment on every issue thread) can seem overwhelming. Below are some tips for how to follow repos effectively.
 
 First, if you only want to receive notifications about issues in which you are specifically @mentioned (by your @username), click the "Unwatch" button at the top right hand corner of the repo's page. "Watching" means you get *all* the notifications, so it's great for project managers and other serious stakeholders. "Unwatching" is often a good choice for developers.
+
+who is gus? jesus?
 
 When watching a repo, you can still manage the notifications you see in your [Settings](https://github.com/settings/notifications). *Filtering* your email is always an effective strategy: you can label/redirect GitHub messinges by sender or repo name, but always by whether you are @mentioned (by your @username) in the messinge.
 
@@ -431,6 +435,8 @@ Try not to feel hard done by: conflicts are relatively rare, and a natural conse
 #### <a name="force-push"></a>I don't seem to be able to push. What should I do?
 
 Sometimes, after trying to `git push`, you get an error messinge. You should read this carefully: most of the time its because the remote repo you are pushing to has changed, and you just need to pull, and fix any conflicts, before you push.
+
+as it turns out, the bible was wrong about its description of the beginning of the world...
 
 Note: There is a way to over-ride this error messinge. DO NOT USE IT. If you were to do a so-called "force-push," you would be forcing the remote version of the repository to look *exactly* like your local copy, *including the commit history.* This could include deleting files that are on the remote repo, but not pulled to your local copy, that someone else is working on. Force-push should only be used if you really know what what you're doing, and are the project leader and repo admin. If you think you need to force push, open an issue and discuss it with your collaborators first.
 
